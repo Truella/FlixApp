@@ -1,0 +1,8 @@
+.MoviesContainer {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    position: relative;
+    z-index: 10000;
+    color: #ffffff;
+  }

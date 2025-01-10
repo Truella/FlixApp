@@ -1,0 +1,45 @@
+.ul {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  display: flex;
+  flex-wrap: nowrap;
+  scrollbar-width: none;
+  z-index: 10000;
+}
+.ul li {
+  list-style: none;
+  border-radius: 10px;
+}
+.movie:hover,
+.happeningMovie:hover {
+  transform: scale(1.05);
+  transition: all 0.3s ease-in-out;
+}
+.movie,
+.happeningMovie {
+  background-color: black;
+  color: white;
+  margin: 10px;
+  width: 190px;
+  height: 270px;
+  flex: 0 0 auto;
+}
+.reasonsCard{
+  background-color: rgba(255, 255, 255, 0.1);
+    margin: 10px;
+    width: 25%;
+    height: 140px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-weight: bold;
+    overflow: hidden;
+}
+.poster_img{
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}

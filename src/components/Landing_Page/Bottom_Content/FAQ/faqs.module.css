@@ -1,0 +1,9 @@
+.Faqs_Container{
+    width: 100%;
+    margin: 20px auto;
+    color: #ffffff;
+}
+.Faqs_Container ul{
+    margin: 0;
+    padding: 0;
+}

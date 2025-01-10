@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  background-color: #0f0f0f;
+}
+.fullBlurBg {
+  width: 100vw;
+  height: 75rem;
+  background: url("src\\assets\\images\\NetflixSlideShw2.jpg");
+  background-size: cover;
+  position: absolute;
+  z-index: -1000;
+  filter: blur(16px);
+}
+.radialgradientOne {
+  background: radial-gradient(
+    50% 100% at 50% 0%,
+    rgba(44, 66, 156, 0.15) 0%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  position: absolute;
+  height: 75rem;
+  width: 100vw;
+}
+.radialgradientTwo {
+  opacity: 75%;
+  background: radial-gradient(
+    92.16%,
+    100% at 49.87% 0%,
+    rgba(247, 99, 107, 0.3) 19.86%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  position: absolute;
+  height: 75rem;
+  width: 100vw;
+}
+.main-content-container {
+  width: 100%;
+  position: relative;
+}

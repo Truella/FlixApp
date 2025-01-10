@@ -1,0 +1,9 @@
+.TMoviesContainer {
+  width: 80vw;
+  height: auto;
+  padding: 10px;
+  position: relative;
+  z-index: 10000;
+  color: #ffffff;
+  margin: 0 auto;
+}

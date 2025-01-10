@@ -1,0 +1,43 @@
+.FaqItem_container {
+  list-style: none;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.Q_containerFlex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.1);
+  margin-bottom: 20px;
+  color: #fff;
+  margin-bottom: 10px;
+  border-radius: 15px;
+  padding: 25px;
+  font-weight: bold;
+  border: 2px solid rgba(255, 255, 255, 0.04);
+  transition-duration: 250ms;
+  transition-property: background-color;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.68, 0.06);
+}
+.Q_containerFlex:hover {
+  transition-timing-function: cubic-bezier(0.32, 0.94, 0.6, 1);
+  background-color: rgba(255, 255, 255, 0.2);
+}
+.Q_containerFlex span {
+  font-size: 24px;
+  font-weight: bold;
+}
+.A_container {
+  background-color: rgba(255, 255, 255, 0.1);
+  margin-bottom: 10px;
+  border-radius: 15px;
+  padding: 25px;
+  font-weight: bold;
+  transition: 250ms cubic-bezier(0.32, 0.94, 0.6, 1);
+  border: 2px solid rgba(255, 255, 255, 0.04);
+}
+.A_containerClose {
+  max-height: 0;
+  overflow: hidden;
+  transition: 250ms cubic-bezier(0.32, 0.94, 0.6, 1);
+}

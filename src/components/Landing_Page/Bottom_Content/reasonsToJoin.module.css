@@ -1,0 +1,46 @@
+.reasonsCardContainer {
+  color: #ffffff;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.reasonsCard > div {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+img {
+  width: 30px;
+}
+.imgDiv {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.flexParent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0;
+}
+.reasonsCard {
+  background-color: rgba(255, 255, 255, 0.1);
+  width: 24%;
+  height: 140px;
+  padding: 10px;
+  box-sizing: border-box;
+  font-weight: bold;
+  overflow: hidden;
+  border-radius: 10px;
+  border: 2px solid rgba(255, 255, 255, 0.04);
+}
+@media (max-width: 776px) {
+  .flexParent{
+    flex-direction: column;
+  }
+  .reasonsCard{
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+}
